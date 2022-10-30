@@ -77,20 +77,61 @@ h3{
 }
 
 /* For Mobile */
-@media screen and (max-width: 540px){
-    #hi{
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    #menu{
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+@media screen and (max-width: 1440px){
+  body{
+    font-size: 1.5em;
+  }
+  #hi{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #menu{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #avatar{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 216px;
+    width: 300px;
+  }
+  #menu ul li{
+    margin: 0em 2em 2em 0em;
+  }
+  .intro{
+    text-align: center;
+    float: none;
+  }
 }
 
-/* For Tablets */
-@media screen and (min-width: 540px) and (max-width: 780px) {
-    .view {
-        width: 600px;
-    }
+@media screen and (max-width: 1080px){
+  body{
+    font-size: 1.5em;
+  }
+  #hi{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #menu{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #avatar{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 216px;
+    width: 300px;
+  }
+  #menu ul li{
+    margin: 0em 2em 2em 0em;
+  }
+  .intro{
+    text-align: center;
+    float: none;
+  }
+
 }
