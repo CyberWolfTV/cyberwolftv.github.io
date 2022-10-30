@@ -1,0 +1,96 @@
+.debug{
+  border: 5px solid #FFFF00;
+}
+
+
+
+
+body {
+  background-color: #292A31;
+  color: #DDDDDD;
+  font-size: 1rem;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+
+
+
+#hi{
+  margin-left: 35%;
+  margin-right: 35%;
+}
+#line{text-align: center;}
+.intro{
+  float: right;
+}
+
+#menu{
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 150px;
+}
+
+#main-list{
+  align-items: center;
+}
+
+#avatar{
+  height: 108px;
+  width: 150px;
+  float: left;
+}
+
+.Navi {
+  list-style: none;
+}
+
+.a11 {
+  color: #DDDDDD;
+  display: block;
+  padding: 10px 0 15px;
+  text-decoration: none;
+}
+
+.a11:hover:not(#aktiv) {
+  background-color: #666;
+  color: white;
+}
+
+#aktiv {
+  text-decoration: none;
+  color: white;
+  padding: 10px 0 15px;
+  overflow: auto;
+  background-color: #505050;
+}
+
+
+
+@media screen and (max-width: 1635px){
+  #avatar{
+    float: none;
+  }
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px){
+    #hi{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #menu{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .view {
+        width: 600px;
+    }
+}
